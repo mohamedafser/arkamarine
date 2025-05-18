@@ -10225,6 +10225,9 @@ a.read-more-btn:hover i {
 #scrollUp:hover {
   background: #1e66ef;
 }
+div.home-contact {
+  padding-top: 200px !important;
+}
 
 /* ========== SERVICE PAGE ====== */
 .main-menu.blue-color.other-pages > ul > li > a {
@@ -10237,4 +10240,16 @@ a.read-more-btn:hover i {
 .single-service-item .service-image img {
   height: 220px;
   object-fit: cover;
+}
+
+/* =========== ABOUT PAGE ========= */
+div.about-team {
+  margin-top: -100px;
+  padding-top: 245px !important;
+}
+
+/* ============ FORM =========== */
+.form-dropdown,
+.nice-select .list {
+  width: 100%;
 }

@@ -926,4 +926,18 @@ Commons Variables
         .fadeIn(900);
     }
   }
+
+  // Switch class between two <li> elements on hover
+  $(".about-image li").first().addClass("active"); // Add active class to the first <li> on initial load
+  $(".about-image li").hover(
+    function () {
+      $(this).addClass("active").siblings().removeClass("active");
+    },
+    function () {
+      $(this).removeClass("active");
+      $(".about-image li").first().addClass("active");
+    }
+  );
 })(jQuery);
+
+AOS.init();

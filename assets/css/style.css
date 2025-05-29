@@ -10401,3 +10401,15 @@ div.about-team {
 .single-team .team-img {
   border-radius: 0 !important;
 }
+
+.badge-overlay img {
+  width: 50px;
+}
+.badge-overlay {
+  position: absolute;
+  right: 37px;
+  top: 15px;
+}
+.blog-image img {
+  height: 378px;
+}
